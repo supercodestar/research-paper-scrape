@@ -1,0 +1,41 @@
+run_name: "trial-aug-2025"
+output_dir: "data"
+date_from: "2025-08-01"
+date_to: "2025-08-31"
+
+user_agent: "ResearchScrapeBot/0.1 (+contact: team@example.com)"
+rate_limit:
+  max_requests_per_minute: 12
+  burst: 6
+  backoff_initial_s: 1.0
+  backoff_max_s: 30.0
+
+concurrency:
+  downloads: 4
+  parsing: 4
+
+sources: ["chemrxiv", "openreview"]
+
+OCR:
+  enabled: true
+  language: "eng"
+
+math:
+  preserve_latex: true
+  mathpix:
+    enabled: false   # set true if you add APP_ID/KEY to .env
+    timeout_s: 20
+
+chemrxiv:
+  # NOTE: selectors are intentionally generic; adjust once inspecting live DOM.
+  listing_url: "https://chemrxiv.org/engage/chemrxiv/public-dashboard"
+  listing_wait_selector: "div[role='grid']"
+  item_link_selector: "a[href*='/engage/chemrxiv/article/']"
+  pdf_link_selector: "a[href$='.pdf']"
+
+openreview:
+  # Base endpoints; adjust to current API spec if needed
+  api_base: "https://api.openreview.net"
+  search_path: "/notes/search"
+  discussions_path: "/notes"
+  pdf_field_candidates: ["pdf", "pdf_url", "content.pdf", "content.pdf_url"]
