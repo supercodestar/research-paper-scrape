@@ -1,0 +1,2 @@
+[console_scripts]
+scrape = scrape.cli:app

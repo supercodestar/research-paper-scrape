@@ -1,0 +1,34 @@
+{
+  "notes": [
+    {
+      "id": "7BUjvfCUDG",
+      "forum": "6ry6ibTKOx",
+      "cdate": 1686054085648,
+      "content": {
+        "text": "This paper presents an interesting approach to model compression in federated learning."
+      },
+      "signatures": ["ICLR.cc/2023/TinyPapers/Paper121/Area_Chair_k39o"],
+      "replyto": "6ry6ibTKOx"
+    },
+    {
+      "id": "l0PePlVi9Bw",
+      "forum": "6ry6ibTKOx",
+      "cdate": 1685574048435,
+      "content": {
+        "text": "Thank you for the feedback. We have addressed the concerns raised by the reviewers."
+      },
+      "signatures": ["ICLR.cc/2023/TinyPapers/Paper121/Authors"],
+      "replyto": "6ry6ibTKOx"
+    },
+    {
+      "id": "6ry6ibTKOx",
+      "forum": "6ry6ibTKOx",
+      "cdate": 1677685016434,
+      "content": {
+        "text": "This is the original submission."
+      },
+      "signatures": ["ICLR.cc/2023/TinyPapers"],
+      "replyto": null
+    }
+  ]
+}

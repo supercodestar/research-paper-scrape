@@ -1,0 +1,30 @@
+{
+  "notes": [
+    {
+      "id": "6ry6ibTKOx",
+      "forum": "6ry6ibTKOx",
+      "cdate": 1677685016434,
+      "content": {
+        "title": "A Rate--Distortion View on Model Updates",
+        "abstract": "Compressing model updates is critical for reducing communication costs in federated learning.",
+        "authors": ["Nicole Elyse Mitchell", "Jona Ballé", "Zachary Charles"],
+        "pdf": "/pdf/9f222770358e924c75d68d96e80310f76853ba12.pdf"
+      },
+      "venue": "ICLR 2023",
+      "signatures": ["ICLR.cc/2023/TinyPapers"]
+    },
+    {
+      "id": "fmtvpopfLC6",
+      "forum": "fmtvpopfLC6", 
+      "cdate": 1667684185108,
+      "content": {
+        "title": "Code as Policies: Language Model Programs for Embodied Control",
+        "abstract": "Large language models trained on code-completion have been shown to be capable of synthesizing simple Python programs.",
+        "authors": ["Jacky Liang", "Wenlong Huang", "Fei Xia"],
+        "pdf": "/pdf/c0bfbed82253e97b8156dfee45e80fdff2f3cf64.pdf"
+      },
+      "venue": "CoRL 2022",
+      "signatures": ["robot-learning.org/CoRL/2022/Workshop/LangRob"]
+    }
+  ]
+}
